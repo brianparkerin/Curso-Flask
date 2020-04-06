@@ -1,0 +1,54 @@
+Microsoft Windows [Versión 10.0.18362.720]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\brian>cd desktop/underfix
+
+C:\Users\brian\Desktop\underfix>cd enviroment
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\brian\Desktop\underfix>cd enviroment
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\brian\Desktop\underfix>cd ..
+
+C:\Users\brian\Desktop>cd curso-flask
+
+C:\Users\brian\Desktop\Curso-Flask>cd enviroment
+
+C:\Users\brian\Desktop\Curso-Flask\enviroment>cd scripts
+
+C:\Users\brian\Desktop\Curso-Flask\enviroment\Scripts>activate
+
+(enviroment) C:\Users\brian\Desktop\Curso-Flask\enviroment\Scripts>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(enviroment) C:\Users\brian\Desktop\Curso-Flask\enviroment\Scripts>python ../../src/index.py
+ * Serving Flask app "index" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 116-571-826
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2020 17:47:20] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:21] "[37mGET /static/css/responsive.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:21] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:21] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:22] "[37mGET /static/img/icons/search-icon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:22] "[37mGET /static/img/logos-svg/logotype.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:23] "[37mGET /static/img/logos-svg/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:27] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:29] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:31] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:33] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:36] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:39] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:42] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:46] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 17:47:49] "[37mGET /user/sing-up HTTP/1.1[0m" 200 -
+
+(enviroment) C:\Users\brian\Desktop\Curso-Flask\enviroment\Scripts>
