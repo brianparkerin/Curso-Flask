@@ -20,7 +20,7 @@ venv\Scripts>pip install flask
 myproject\venv\Scripts>python ../../src/index.py
 
 
-#### More Forms...
+#### Others Forms...
 
 venv\Scripts>pip install (module name)
 
