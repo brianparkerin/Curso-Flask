@@ -21,6 +21,8 @@ venv\Scripts>pip install gunicorn
 
 myproject\venv\Scripts>python ../../src/index.py
 
+venv\Scripts>pip freeze > ../../src/requirements.txt
+
 
 #### Others Forms...
 
