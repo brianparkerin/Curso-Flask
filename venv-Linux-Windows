@@ -1,0 +1,44 @@
+### Crear un entorno virtual en windows para cualquier projecto en python como una WebApp, API, Bot...
+
+pip install virtualenv
+
+python -m venv venv
+
+venv/scripts/python
+
+Project>venv>Scripts>activate
+
+instalar flask desde un entorno virtual desde windows:
+
+pip install flask  
+
+Nota: (sirve para instalar los modulos y librerias de python con los que vamos a trabajar)
+
+Project>venv>Scripts>activate
+
+ejecutar el servidor de Flask 
+
+Nota: (cuando se ejecute desde un servidor para dejarlo ejecutanto en todo momento desde ahi)
+
+Scripts>python ../../src/index.py
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Crear un entorno & Bot Discord/Instagram, WebApp, API en Linux con Python...
+
+dentro de la carpeta del projecto ejecutamos:
+
+pip install pipenv
+
+pip env shell
+
+pipenv install discord
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
