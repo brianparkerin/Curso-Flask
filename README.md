@@ -37,4 +37,6 @@ venv\Scripts>python -m pip freeze
 
 venv\Scripts>python -m pip install flask
 
+venv\Scripts>python -m pip install <nombre del modulo o de la libreria que se vaya a instalar>  
+
 
