@@ -20,7 +20,7 @@ venv\Scripts>pip install flask
 myproject\venv\Scripts>python ../../src/index.py
 
 
-Other Forms...
+#### More Forms...
 
 venv\Scripts>pip install (module name)
 
@@ -29,7 +29,7 @@ venv\Scripts>pip install -m  i name name name
 venv\Scripts>pipenv -m install flask
 
 
-Please Note: 
+#### Please Note: 
 
 si el comando de pip no funciona ejecutalo como...
 
