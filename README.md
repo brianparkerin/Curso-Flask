@@ -22,6 +22,8 @@ myproject\venv\Scripts>python ../../src/index.py
 
 #### Others Forms...
 
+Instalae una version especifica de Python dentro de nuestro projecto: pip install python==3.7.2
+
 venv\Scripts>pip install (module name)
 
 venv\Scripts>pip install -m  i name name name
