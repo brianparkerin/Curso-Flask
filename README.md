@@ -5,7 +5,7 @@
 
 pip install virtualenv
 
-python -m venv venv
+python -m venv venv  or   virtualenv "nombre del projecto"
 
 venv\Scripts>activate
 
