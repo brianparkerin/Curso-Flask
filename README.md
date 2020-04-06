@@ -17,6 +17,8 @@ venv\Scripts>python -m pip install --upgrade pip
 
 venv\Scripts>pip install flask
 
+venv\Scripts>pip install gunicorn
+
 myproject\venv\Scripts>python ../../src/index.py
 
 
