@@ -1,0 +1,362 @@
+Microsoft Windows [Versión 10.0.18362.720]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\brian>cd desktop
+
+C:\Users\brian\Desktop>cd underfix-flask-project
+
+C:\Users\brian\Desktop\underfix-flask-project>cd enviroment
+
+C:\Users\brian\Desktop\underfix-flask-project\enviroment>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: EA72-003E
+
+ Directorio de C:\Users\brian\Desktop\underfix-flask-project\enviroment
+
+05/04/2020  19:45    <DIR>          .
+05/04/2020  19:45    <DIR>          ..
+05/04/2020  19:45    <DIR>          Include
+05/04/2020  19:45    <DIR>          Lib
+05/04/2020  19:45               117 pyvenv.cfg
+05/04/2020  20:06    <DIR>          Scripts
+               1 archivos            117 bytes
+               5 dirs  439.669.686.272 bytes libres
+
+C:\Users\brian\Desktop\underfix-flask-project\enviroment>cd scripts
+
+C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>activate
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python ../../src/index.py
+ * Serving Flask app "index" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 294-031-606
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [06/Apr/2020 13:39:44] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:45] "[37mGET /static/css/responsive.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:45] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:45] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:45] "[37mGET /static/img/icons/search-icon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:45] "[37mGET /static/img/logos-svg/logotype.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:49] "[37mGET /static/img/logos-svg/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:39:57] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:00] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:04] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:08] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:13] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:16] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:22] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:26] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:35] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:39] "[37mGET /user/sing-up HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:40:50] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:41:02] "[37mGET /sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:41:08] "[37mGET /sing-up HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:41:20] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:41:58] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:09] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:10] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:12] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:15] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:16] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:18] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:21] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:25] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:29] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:35] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:42:37] "[37mGET /user/sing-up HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:40] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:44] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:48] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:50] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:54] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:44:58] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:45:03] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:45:59] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:46:29] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:46:36] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:55:26] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:55:30] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:55:32] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:55:35] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:55:36] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:27] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:29] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:31] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:33] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:35] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:38] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:41] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:56:44] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:06] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:11] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:14] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:16] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:17] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:21] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:24] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:33] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:46] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:49] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 13:59:52] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:00:34] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:00:38] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:00:41] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:12] "[37mGET /sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:29] "[37mGET /sing-up HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:36] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:41] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:47] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:51] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:56] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:01:58] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:04:27] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:04:30] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:07:30] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:08:28] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:08:32] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:08:35] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:09:52] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:09:56] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:10:04] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:10:06] "[37mGET /blog HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:10:09] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:13:30] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:19:51] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:19:55] "[37mGET /explore HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:19:56] "[37mGET /docs HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:19:58] "[37mGET /pricing HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:20:01] "[37mGET /business HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:20:04] "[37mGET /user HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:20:06] "[37mGET /user/sing-in HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Apr/2020 14:20:19] "[37mGET / HTTP/1.1[0m" 200 -
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pipenv install gunicorn
+Creating a Pipfile for this project…
+Installing gunicorn…
+WARNING: location not created nor specified
+Installation Failed
+Adding gunicorn to Pipfile's [packages]…
+Traceback (most recent call last):
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Scripts\pipenv.exe\__main__.py", line 7, in <module>
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\decorators.py", line 17, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\site-packages\pipenv\cli\command.py", line 235, in install
+    retcode = do_install(
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\site-packages\pipenv\core.py", line 1965, in do_install
+    sp.write(vistir.compat.fs_str(
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\vistir\spin.py", line 218, in write
+    return self.write_err(text)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\vistir\spin.py", line 238, in write_err
+    self.out_buff.write(to_text(text))
+ValueError: I/O operation on closed file
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>activate
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pipenv install gunicorn
+Installing gunicorn…
+WARNING: location not created nor specified
+Installation Failed
+Adding gunicorn to Pipfile's [packages]…
+Traceback (most recent call last):
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\runpy.py", line 193, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Scripts\pipenv.exe\__main__.py", line 7, in <module>
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\click\decorators.py", line 17, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\site-packages\pipenv\cli\command.py", line 235, in install
+    retcode = do_install(
+  File "c:\users\brian\appdata\local\programs\python\python38\lib\site-packages\pipenv\core.py", line 1965, in do_install
+    sp.write(vistir.compat.fs_str(
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\vistir\spin.py", line 218, in write
+    return self.write_err(text)
+  File "C:\Users\brian\AppData\Local\Programs\Python\Python38\Lib\site-packages\pipenv\vendor\vistir\spin.py", line 238, in write_err
+    self.out_buff.write(to_text(text))
+ValueError: I/O operation on closed file
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip.exe
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" ': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python pip.exe
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any
+                              HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python pip install gunicorn
+C:\Users\brian\AppData\Local\Programs\Python\Python38\python.exe: can't open file 'pip': [Errno 2] No such file or directory
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip.exe
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" ': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip install gunicorn
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" install gunicorn': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts> python -m pip works
+ERROR: unknown command "works"
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>pip freeze
+Fatal error in launcher: Unable to create process using '"c:\users\brian\desktop\flask-project\enviroment\scripts\python.exe"  "C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\pip.exe" freeze': El sistema no puede encontrar el archivo especificado.
+
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>ython -m pip freeze
+"ython" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m pip freeze
+click==7.1.1
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m pip install gunicorn
+Collecting gunicorn
+  Using cached gunicorn-20.0.4-py2.py3-none-any.whl (77 kB)
+Requirement already satisfied: setuptools>=3.0 in c:\users\brian\desktop\underfix-flask-project\enviroment\lib\site-packages (from gunicorn) (41.2.0)
+Installing collected packages: gunicorn
+Successfully installed gunicorn-20.0.4
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -- version
+C:\Users\brian\AppData\Local\Programs\Python\Python38\python.exe: can't open file 'version': [Errno 2] No such file or directory
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m --version
+C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts\python.exe: No module named --version
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m pip freeze
+click==7.1.1
+Flask==1.1.2
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m pip freeze > requirements.txt
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>python -m pip freeze > ../../src/requirements.txt
+
+(enviroment) C:\Users\brian\Desktop\underfix-flask-project\enviroment\Scripts>
