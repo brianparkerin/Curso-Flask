@@ -2,18 +2,23 @@
 
 ### A quick Guide to Start with Flask
 
-Cd Project...
+ > Cd Project...
+ 
+ - Instalar...
+ 
+ > pip install virtualenv
+ 
+ - En caso de ya tenerlo instalado de modo global en todo la computadora, ejecutamos...
+ 
+ > virualenv venv
+ 
+ > project> .\venv/scripts/activate.bat
+ 
+ - Comenzar a instalar modulos y dependencias dentro de nuestro projecto Flask o Django...
+ 
+ > pip install flask pymongo or pip install flask-pymongo
 
-Instalar...
-pip install virtualenv
 
-En caso de ya tenerlo instalado de modo global en todo la computadora, ejecutamos...
-virualenv venv
-
-project> .\venv/scripts/activate.bat
-
-Comenzar a instalar modulos y dependencias dentro de nuestro projecto Flask o Django...
-pip install flask pymongo or pip install flask-pymongo
 
 ### Windows basic commands to start a project!
 
